@@ -3,7 +3,7 @@ MAINTAINER Jeyson Maia <jeyson@upspeck.io>
 
 # Gradle
 ENV GRADLE_VERSION 2.11
-ENV GRADLE_HASH fe801ce2166e6c5b48b3e7ba81277c41
+ENV GRADLE_HASH 8d7437082356c9fd6309a4479c8db307673965546daea445c6c72759cd6b1ed6
 WORKDIR /usr/lib
 RUN wget https://downloads.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip
 RUN echo "${GRADLE_HASH} gradle-${GRADLE_VERSION}-bin.zip" > gradle-${GRADLE_VERSION}-bin.zip.md5
